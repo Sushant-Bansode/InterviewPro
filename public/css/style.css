@@ -1,0 +1,224 @@
+.container {
+  min-height: 600px;
+  padding-top: 70px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+/* ChatApp*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+section.chat_section {
+  width: 800px;
+  max-width: 90%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  padding: 1px;
+  background: #85f8c2;
+  display: flex;
+  align-items: center;
+}
+
+.brand h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #444;
+  margin-left: 10px;
+}
+
+.message_area {
+  height: 120px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 40px;
+}
+
+.onlyforChat textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background: #dedede;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  position: relative;
+  max-width: 300px;
+}
+
+.incoming {
+  background: #8f8be8;
+  color: #fff;
+}
+
+.outgoing {
+  background: #e9eafd;
+  color: #787986;
+  margin-left: auto;
+}
+
+.message h4 {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.userName {
+  margin-left: auto;
+}
+
+.CodeScreen {
+  margin-bottom: 10px;
+}
+.CodeMirror {
+  height: 600px;
+}
+
+/*
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+
+*/
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.my-video {
+  margin-top: 15px;
+  width: 280px;
+  height: auto;
+  background-color: #eee;
+}
+
+.second-video {
+  width: 100%;
+  height: 75%;
+  max-height: 480px;
+  background-color: #eee;
+}
+/*
+
+.video-container {
+  text-align: center;
+}
+
+.my-id {
+  font-weight: bold;
+} */
+.class1A {
+  display: flex;
+  flex-direction: row;
+}
+.callto-id {
+  width: auto;
+}
+.chatbox {
+  border: 2px solid black;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#my-video {
+  margin-top: 15px;
+  width: 280px;
+  height: auto;
+  background-color: #eee;
+  max-width: fit-content;
+}
+
+#second-video {
+  /* width: 100%;
+  height: 30%;
+  max-height: 480px;
+  background-color: #eee; */
+  margin-top: 15px;
+  width: 280px;
+  height: auto;
+  background-color: #eee;
+  max-width: fit-content;
+}
+
+#video-container {
+  text-align: center;
+}
+
+#step1-error,
+#step2,
+#step3 {
+  display: none;
+}
+
+#my-id {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .CodeMirror {
+    height: 200px;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: row;
+  }
+  #my-video {
+    margin-left: 15px;
+    margin-top: 2px;
+    width: 250px;
+    height: auto;
+    background-color: #eee;
+    max-width: fit-content;
+  }
+  #second-video {
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 250px;
+    height: auto;
+    background-color: #eee;
+    max-width: fit-content;
+  }
+  .imagesClass {
+    display: flex;
+    flex-direction: column;
+  }
+  .imagesClass img {
+    width: 100px;
+  }
+}
+
+.formSectionId {
+  display: block;
+}
+
+body {
+  background-color: antiquewhite;
+}

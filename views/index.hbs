@@ -1,0 +1,32 @@
+<h2 style="background: lightskyblue;">Hello Coders and welcome to Our brand new Code-Adda ........ </h2>
+<div style="display: flex; flex-direction: row; justify-content:center" class="imagesClass">
+    <img src="/images/coder.png" style="margin: 20px" srcset="">
+    <img src="/images/coder2.png" style="margin: 20px" width="500px" alt="" srcset="">
+</div>
+<h4 style="margin:5px 0px ; background:lightgoldenrodyellow;">Make Peers Code with them and Get Placed</h4>
+{{#if user}}
+<div style="display: flex; flex-direction: column; justify-content:center; align-items:center">
+    <a href="/createTask" class="btn btn-primary" style="width: 300px;">Create New Task</a>
+
+    <div class="form-inline class1A my-2">
+
+        <div style="display: flex; background:blue;padding:10px">
+            <input type="text" class="form-control callto-id" placeholder="Join a tast using task id" id="task-id">
+            <button class="btn btn-sm btn-success make-call mx-2" id="join-task" onclick="fun()">
+                Join Task
+            </button>
+        </div>
+
+    </div>
+
+
+</div>
+
+{{/if}}
+
+<script>
+    function fun() {
+        var task_id = $("#task-id").val();
+        window.location.href = "/task/" + task_id;
+    }
+</script>
